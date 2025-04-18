@@ -1,0 +1,14 @@
+Package: mlbdfslookup
+Title: Utilities to analyze MLB DFS results
+Version: 0.0.0.9000
+Authors@R: 
+    person("Jamin", "Kim", , "jaminkim0504@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: A collection of functions to extract and parse DFS tournament results easily
+Depends: R (>= 4.0)
+Imports: dplyr, tidyr, readr, stringr, purrr
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
